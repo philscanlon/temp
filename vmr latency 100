@@ -1,0 +1,322 @@
+
+
+ 
+
+
+-------------------------------------------------
+
+
+Aggregate Stats (Total # clients: 1):
+
+
+-------------------------------------------------
+
+
+Total Messages transmitted = 0
+
+
+Computed publish rate (msg/sec) = 0.0
+
+
+-------------------------------------------------
+
+
+Total Messages received across all
+subscribers = 100000
+
+
+Messages received with discard indication =
+0
+
+
+Computed subscriber rate (msg/sec across
+all subscribers) = 1000
+
+
+ 
+
+
+CPU usage = 0%
+
+
+ 
+
+
+Latency Info:
+
+
+Individual latency bucket size = 1.0 us
+
+
+Latency warmup                 = 20.0s
+
+
+Latency Messages received      = 79983
+
+
+Latency msg rate (msg/sec)     = 999
+
+
+ 
+
+
+Latency Stats:
+
+
+Average latency for subs       = 1930
+
+
+50th percentile latency        = 1408
+
+
+95th percentile latency        = 3580
+
+
+99th percentile latency        = N/A
+
+
+99.9th percentile latency      = N/A
+
+
+Standard Deviation             = 763
+
+
+ 
+
+
+==> Garbage collection information
+
+
+====> Collection count 0
+
+
+====> Collection time 0 ms.
+
+
+ 
+
+
+> Exiting
+
+
+-bash-4.1$ ping 10.191.210.22
+
+
+PING 10.191.210.22 (10.191.210.22) 56(84)
+bytes of data.
+
+
+64 bytes from 10.191.210.22: icmp_seq=1
+ttl=63 time=0.214 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=2
+ttl=63 time=0.202 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=3
+ttl=63 time=0.201 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=4
+ttl=63 time=0.213 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=5
+ttl=63 time=0.195 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=6
+ttl=63 time=0.210 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=7
+ttl=63 time=0.221 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=8
+ttl=63 time=0.248 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=9
+ttl=63 time=0.222 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=10
+ttl=63 time=0.172 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=11
+ttl=63 time=0.224 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=12
+ttl=63 time=0.146 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=13
+ttl=63 time=0.210 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=14
+ttl=63 time=0.233 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=15
+ttl=63 time=0.190 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=16
+ttl=63 time=0.168 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=17
+ttl=63 time=0.189 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=18
+ttl=63 time=0.171 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=19
+ttl=63 time=0.217 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=20
+ttl=63 time=0.184 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=21
+ttl=63 time=0.201 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=22
+ttl=63 time=0.187 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=23
+ttl=63 time=0.221 ms
+
+
+64 bytes from 10.191.210.22: icmp_seq=24
+ttl=63 time=0.197 ms
+
+
+^C
+
+
+--- 10.191.210.22 ping statistics ---
+
+
+24 packets transmitted, 24 received, 0%
+packet loss, time 23894ms
+
+
+rtt min/avg/max/mdev =
+0.146/0.201/0.248/0.026 ms
+
+
+-bash-4.1$ ping 10.191.247.245
+
+
+PING 10.191.247.245 (10.191.247.245) 56(84)
+bytes of data.
+
+
+64 bytes from 10.191.247.245: icmp_seq=1
+ttl=63 time=0.081 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=2
+ttl=63 time=0.091 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=3
+ttl=63 time=0.076 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=4
+ttl=63 time=0.072 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=5
+ttl=63 time=0.079 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=6
+ttl=63 time=0.092 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=7
+ttl=63 time=0.093 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=8
+ttl=63 time=0.094 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=9
+ttl=63 time=0.076 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=10
+ttl=63 time=0.092 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=11
+ttl=63 time=0.073 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=12
+ttl=63 time=0.096 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=13
+ttl=63 time=0.076 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=14
+ttl=63 time=0.093 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=15
+ttl=63 time=0.074 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=16
+ttl=63 time=0.089 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=17
+ttl=63 time=0.094 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=18
+ttl=63 time=0.099 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=19
+ttl=63 time=0.095 ms
+
+
+64 bytes from 10.191.247.245: icmp_seq=20
+ttl=63 time=0.095 ms
+
+
+^C
+
+
+--- 10.191.247.245 ping statistics ---
+
+
+20 packets transmitted, 20 received, 0%
+packet loss, time 19663ms
+
+
+rtt min/avg/max/mdev =
+0.072/0.086/0.099/0.013 ms
+
+
+-bash-4.1$
+
+
